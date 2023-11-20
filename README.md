@@ -1,7 +1,5 @@
 #GITHUB PAGES Y VITE
 
-TGITHUB PAGES Y VITE
-
 Instalar React con Vite
 
 Ctrl+C para cortar y volver a tener a terminal
