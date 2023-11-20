@@ -26,7 +26,7 @@ INSTALAR gh-pages: Permite automatizar la publicacion de archivos en la rama gh-
 
 10.Despues volver a correr **npm run build** y **npm run deploy** que lleva a la rama nueva, hacemos **git push** y actualiza
 
-vite.config.js  
+**VITE.CONFIG.JS**
 import { defineConfig } from "vite";  
 import react from "@vitejs/plugin-react";  
 
@@ -39,7 +39,7 @@ export default defineConfig({
 
 ![image](https://github.com/verobaires/react-vite-githubpages/assets/34665102/0346268e-f54d-4d97-965a-d78f6f00f5f5)
 
-package.json  
+**PACKAGE.JSON**
 "deploy": "gh-pages -d dist"  
 "scripts": {  
     "dev": "vite",  
