@@ -17,9 +17,9 @@ INSTALAR gh-pages: Permite automatizar la publicacion de archivos en la rama gh-
 
 5.Despues ir a vite.config.js y agregar base con el nombre del repo remoto (deben estar las barras), no olvidar todas las comas  
 
-6.Hacer **npm run build**, que creara la carpeta dist y guardar  
+6.Para que tome esa carpeta y tome esos archivos hay que agregar en el script del package.json el deploy (no olvidar comas) y guardar  
 
-7.Para que tome esa carpeta y tome esos archivos hay que agregar en el script del package.json el deploy (no olvidar comas) y guardar  
+7.Hacer **npm run build**, que creara la carpeta dist y guardar
 
 8.Luego ejecutar **npm run deploy** (si vamos al repo aparecera la rama gh-pages), eso activa github pages  
 
